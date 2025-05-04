@@ -1,4 +1,4 @@
-module go-apkdk-configuration
+module github.com/imsat-spb/go-apkdk-configuration
 
 go 1.13
 
