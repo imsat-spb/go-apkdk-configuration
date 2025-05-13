@@ -86,7 +86,7 @@ func (td *TestProjectData) GetAttributeInfo(id int) ObjectAttributeInformation {
 
 func (td *TestProjectData) GetAttributeValue(attributeId int, objectId int) *string {
 	for _, v := range td.AttributeValues {
-		if v.Id == objectId && v.Id == attributeId {
+		if v.ObjectId == objectId && v.Id == attributeId {
 			return &v.Value
 		}
 	}
